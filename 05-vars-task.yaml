@@ -1,11 +1,11 @@
 - name: variables
   hosts: localhost
   vars:
-    Course: "Ansible"
+    Course: "Terraform"
     Trainer: "Malli"
     Duration: "120hrs" 
   tasks:
-  - name: print overide information
+  - name: print override information
     vars: 
     Course: DevOps
     ansible.builtin.debug:
